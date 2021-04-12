@@ -1,0 +1,13 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#world {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(#eeebcd, #f8d6a0); /*整个canvas的背景色, 不用在three中设置，在css中设置*/
+}
