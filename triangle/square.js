@@ -212,7 +212,7 @@ async function loadGLSLFiles() {
 
 function main() {
     //第一步获取context
-    const canvas = document.querySelector('#glcanvas');
+    const canvas = document.querySelector('#square_canvas');
     const gl = canvas.getContext('webgl2');
 
     // If we don't have a GL context, give up now
