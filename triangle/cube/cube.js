@@ -163,7 +163,7 @@ function getMVPMatrix(gl, angle) {
     
 
 
-    const fieldOfView = 45 * Math.PI / 180;   // in radians
+    const fieldOfView = 90 * Math.PI / 180;   // in radians
     const aspect = gl.canvas.clientWidth / gl.canvas.clientHeight;
     const zNear = 0.1;
     const zFar = 100.0;
@@ -180,7 +180,7 @@ function getMVPMatrix(gl, angle) {
 
     mat4.translate(modelMatrix,     // destination matrix
         modelMatrix,     // matrix to translate
-        [-0.0, 0.0, -6.0]);  // amount to translate
+        [-0.0, 0.0, -4.0]);  // amount to translate
 
     mat4.multiply(modelMatrix, modelMatrix, rotateMatrix);
 
